@@ -11,3 +11,11 @@ def disemvowel(string_):
         if i not in vowels:
             newString += i
     return newString
+    
+'''
+Good approach
+
+def disemvowel(string):
+    return "".join(c for c in string if c.lower() not in "aeiou")
+
+'''
